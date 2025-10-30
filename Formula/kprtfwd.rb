@@ -1,17 +1,17 @@
 class Kprtfwd < Formula
   desc "Kubernetes port-forward multiplexer"
   homepage "https://github.com/xlttj/kprtfwd"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/xlttj/kprtfwd/releases/download/v1.1.0/kprtfwd-darwin-arm64"
-      sha256 "1ee147034074d61c78dd3c28eca6bdcc2a3544e677580eacfb7f47d6f0138230"
+      url "https://github.com/xlttj/kprtfwd/releases/download/v1.2.0/kprtfwd-darwin-arm64"
+      sha256 "bd56cb7ac33ab3f740ad7da804cd6174d46a27d739bec0acc899e6536717d3b2"
     end
     on_intel do
-      url "https://github.com/xlttj/kprtfwd/releases/download/v1.1.0/kprtfwd-darwin-amd64"
-      sha256 "b3761bbe0fba38a7c071ed1a237cc83bb3e93819eb617c8f397d3e10d21b8f17"
+      url "https://github.com/xlttj/kprtfwd/releases/download/v1.2.0/kprtfwd-darwin-amd64"
+      sha256 "34f67a7ab222212ecf51e6d915d861f4e016caf7f22a662b2150ffd3710a96aa"
     end
   end
 
@@ -25,4 +25,3 @@ class Kprtfwd < Formula
     assert_match "kprtfwd", output
   end
 end
-
