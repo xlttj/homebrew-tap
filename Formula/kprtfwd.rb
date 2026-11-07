@@ -1,7 +1,6 @@
 class Kprtfwd < Formula
   desc "Terminal UI and CLI for Kubernetes port forwards"
   homepage "https://github.com/xlttj/kprtfwd"
-  version "2.0.0"
   license "MIT"
 
   on_macos do
